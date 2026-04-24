@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ascenso-blue: #0A1D37;
+  --color-ascenso-gold: #C5A059;
+}
+
+/* Asegúrate de que esto no tenga un bg-white */
+body {
+  margin: 0;
+  @apply bg-ascenso-blue;
+}
+html {
+  scroll-behavior: smooth;
+}
