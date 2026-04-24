@@ -1,5 +1,6 @@
 
 import './App.css'
+import { Analytics } from '@vercel/analytics/react'
 import Hero from './components/Hero'
 import Navbar from './components/NavBar'
 import Features from './components/Features'
@@ -19,6 +20,7 @@ function App() {
      <Stats/>
      <CTA/>
      <Footer/>
+     <Analytics />
     </div>
   )
 }
