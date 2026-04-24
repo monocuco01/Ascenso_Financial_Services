@@ -56,7 +56,7 @@ const Hero = () => {
         >
           <div className="relative z-10 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
             <img 
-              src="https://res.cloudinary.com/dziwyqnqk/image/upload/v1777049652/WhatsApp_Image_2026-04-14_at_17.24.08_hvzi0u.jpg" 
+              src="https://res.cloudinary.com/dziwyqnqk/image/upload/v1777056595/WhatsApp_Image_2026-04-14_at_17.24.08_hvzi0u.jpg" 
               alt="Consultoría Profesional" 
               className="w-full h-auto object-cover hover:grayscale transition-all duration-700"
             />
