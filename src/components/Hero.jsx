@@ -47,11 +47,12 @@ const Hero = () => {
         </motion.div>
 
         {/* Lado Derecho: Imagen de impacto */}
+        {/* Se quitó 'hidden md:block' y se ajustaron los márgenes y anchos para móviles */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="relative hidden md:block w-[85%] ml-auto"
+          className="relative w-full md:w-[85%] mx-auto md:ml-auto mt-12 md:mt-0"
         >
           <div className="relative z-10 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
             <img 
@@ -62,7 +63,7 @@ const Hero = () => {
           </div>
           
           {/* Adorno dorado detrás de la foto */}
-          <div className="absolute -bottom-6 -right-6 w-64 h-64 border-r-4 border-b-4 border-ascenso-gold/30 -z-10"></div>
+          <div className="absolute -bottom-6 -right-6 w-32 h-32 md:w-64 md:h-64 border-r-4 border-b-4 border-ascenso-gold/30 -z-10"></div>
         </motion.div>
 
       </div>
