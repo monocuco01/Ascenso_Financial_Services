@@ -7,11 +7,14 @@ import Process from './components/Process'
 import Stats from './components/Stats'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
+import { Analytics } from '@vercel/analytics/react';
+
 function App() {
 
 
   return (
     <div>
+      
      <Navbar/>
      <Hero/> 
      <Features/> 
@@ -19,6 +22,7 @@ function App() {
      <Stats/>
      <CTA/>
      <Footer/>
+<Analytics />
     </div>
   )
 }
